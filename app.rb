@@ -11,10 +11,6 @@ class App < Sinatra::Base
     erb: reversed
   end
 
-  pogetst '/reversed' do
-    erb :reversed
-  end
-
   get '/friends' do
     # Write your code here!
 
